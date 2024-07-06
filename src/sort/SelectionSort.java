@@ -16,7 +16,6 @@ public class SelectionSort {
                     idx = j;
                 }
             }
-
             arr[idx] = arr[i];
             arr[i] = temp;
             temp = Integer.MAX_VALUE;
